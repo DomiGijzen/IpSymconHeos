@@ -24,8 +24,18 @@
         * ABC_MeineErsteEigeneFunktion($id);
         *
         */
-        public function MuteHeos( ) {
+        public function TestHeos() {
             echo $this->InstanceID;
+        }
+
+        public function GetPlayers() {
+            define("STRING_DELIMITER", "\r\n");
+
+            $pid = "870191764";
+
+            // get players
+            $command = "heos://player/get_players".STRING_DELIMITER;
+            CSCK_SendText(14359, $command); 
         }
     }
 ?>
