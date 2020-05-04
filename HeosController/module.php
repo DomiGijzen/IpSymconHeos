@@ -25,7 +25,7 @@
         *
         */
         public function TestHeos() {
-            echo $this->InstanceID;
+            echo "werkt"
         }
 
         public function GetPlayers() {
