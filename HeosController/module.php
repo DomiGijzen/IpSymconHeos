@@ -42,6 +42,8 @@
             // get players
             $command = "heos://player/get_players".STRING_DELIMITER;
             CSCK_SendText(14359, $command); 
+
+            var_dump(IPS_VALUE);
         }
 
         public function ReceiveData($JSONString) {
