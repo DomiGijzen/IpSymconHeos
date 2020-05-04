@@ -40,13 +40,14 @@
 
         public function ReceiveData($JSONString) {
  
-            // Empfangene Daten vom Gateway/Splitter
+            // Empfangene Daten vom I/O
             $data = json_decode($JSONString);
             IPS_LogMessage("ReceiveData", utf8_decode($data->Buffer));
          
-            // Datenverarbeitung und schreiben der Werte in die Statusvariablen
-            SetValue($this->GetIDForIdent("TestHeos"), $data->Buffer);
+            // Hier werden die Daten verarbeitet
          
+            // Weiterleitung zu allen Gerät-/Device-Instanzen
+            $this->SendDataToChildren(json_encode(Array("DataID" => "{66164EB8-3439-4599-B937-A365D7A68567}", "Buffer" => $data->Buffer)));
         }
     }
 ?>
