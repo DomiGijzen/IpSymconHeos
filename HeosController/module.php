@@ -24,8 +24,8 @@
         * ABC_MeineErsteEigeneFunktion($id);
         *
         */
-        public function TestHeos() {
-            echo "werkt";
+        public function EchoText() {
+            echo "tekst";
         }
 
         public function GetPlayers() {
