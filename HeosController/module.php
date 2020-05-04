@@ -25,7 +25,7 @@
         *
         */
         public function TestHeos() {
-            echo "werkt"
+            echo "werkt";
         }
 
         public function GetPlayers() {
