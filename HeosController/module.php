@@ -12,13 +12,15 @@
             $this->RegisterPropertyInteger("HeosPort", 1255);
 
             //Variables
-            $this->RegisterVariableString("Feedback", "Feedback from Heos")
+            $this->RegisterVariableString("Feedback", "Feedback from Heos");
         }
     
         // Überschreibt die intere IPS_ApplyChanges($id) Funktion
         public function ApplyChanges() {
             // Diese Zeile nicht löschen
             parent::ApplyChanges();
+
+            $this->SetValue("Feedback", "nog leeg");
         }
 
         /**
