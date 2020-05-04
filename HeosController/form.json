@@ -1,14 +1,6 @@
 {
     "elements":
     [
-        { "type": "	ValidationTextBox", "name": "IP", "caption": "IP of Heos device" }
-    ],
-    "actions":
-    [
-        //... //Hier Formularfelder einfügen
-    ],
-    "status":
-    [
-        //... //Hier Statusmeldungen einfügen
+        { "type": "ValidationTextBox", "name": "IP", "caption": "IP of Heos device" }
     ]
 }
