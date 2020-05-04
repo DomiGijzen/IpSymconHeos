@@ -1,6 +1,7 @@
 {
     "elements":
     [
-        { "type": "ValidationTextBox", "name": "HeosIP", "caption": "IP of Heos device" }
+        { "type": "ValidationTextBox", "name": "HeosIP", "caption": "IP of Heos device" },
+        { "type": "ValidationTextBox", "name": "HeosPort", "caption": "Port of Heos device" }
     ]
 }

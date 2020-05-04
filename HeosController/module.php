@@ -8,6 +8,7 @@
             parent::Create();
 
             $this->RegisterPropertyString("HeosIP", "192.168.100.100");
+            $this->RegisterPropertyInteger("HeosPort", 1255);
         }
     
         // Überschreibt die intere IPS_ApplyChanges($id) Funktion
