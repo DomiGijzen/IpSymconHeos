@@ -1,6 +1,6 @@
 <?php
     // Klassendefinition
-    class IPSymconHeosdev extends IPSModule {
+    class HeosController extends IPSModule {
 
         // Überschreibt die interne IPS_Create($id) Funktion
         public function Create() {
