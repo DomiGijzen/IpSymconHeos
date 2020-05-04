@@ -6,9 +6,13 @@
         public function Create() {
             // Diese Zeile nicht löschen.
             parent::Create();
-
+            
+            //Properties
             $this->RegisterPropertyString("HeosIP", "192.168.100.100");
             $this->RegisterPropertyInteger("HeosPort", 1255);
+
+            //Variables
+            $this->RegisterVariableString("Feedback", "Feedback from Heos")
         }
     
         // Überschreibt die intere IPS_ApplyChanges($id) Funktion
@@ -44,7 +48,7 @@
             IPS_LogMessage("ReceiveData", utf8_decode($data->Buffer));
         
             // Datenverarbeitung und schreiben der Werte in die Statusvariablen
-            SetValue($this->GetIDForIdent("Value"), $data->Buffer);
+            SetValue($this->GetIDForIdent("Feedback"), $data->Buffer);
         }
     }
 ?>

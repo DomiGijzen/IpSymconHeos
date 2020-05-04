@@ -2,14 +2,15 @@
     "id": "{DDCD4D1F-C2FE-C5F9-2000-0398C9CCC3FD}",
     "name": "HeosController",
     "type": 3,
-    "vendor": "",
+    "vendor": "Denon",
     "aliases":
     [
+        "Denon",
         "Heos"
     ],
     "url": "https://github.com/DomiGijzen/IpSymconHeos",
     "parentRequirements": [],
     "childRequirements": [],
     "implemented": [],
-    "prefix": "HEO"
+    "prefix": "HEOS"
 }

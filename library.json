@@ -1,11 +1,10 @@
 {
     "id": "{820036BB-8599-967E-E83E-138794DB8F22}",
     "author": "Dominique Gijzen",
-    "name": "IPSymcon Heos dev",
+    "name": "HeosController",
     "url": "https://github.com/DomiGijzen/IpSymconHeos",
     "compatibility": {
-        "version": "5.3",
-        "date": 1584316800
+        "version": "5.0"
     },
     "version": "0.1",
     "build": 1,
