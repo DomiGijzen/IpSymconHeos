@@ -6,7 +6,6 @@
         public function Create() {
             // Diese Zeile nicht löschen.
             parent::Create();
-    
         }
     
         // Überschreibt die intere IPS_ApplyChanges($id) Funktion
@@ -22,7 +21,7 @@
         * ABC_MeineErsteEigeneFunktion($id);
         *
         */
-        public function MuteHeos() {
+        public function MuteHeos( ) {
             echo $this->InstanceID;
         }
     }
